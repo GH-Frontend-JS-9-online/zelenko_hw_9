@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tamagochi</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="game-over"></h1>
+      <h2>
+        Game time:
+        <span class="game-time"></span>
+      </h2>
+      <ul class="settings flex-container">
+        <li class="settings__item">
+          <select name="levelOfDifficulty" class="levelOfDifficulty">
+            <option>Select level</option>
+            <option value="Fluffy kitty">Fluffy kitty</option>
+            <option value="Lazy pug">Lazy pug</option>
+            <option value="Ninja">Ninja</option>
+          </select>
+        </li>
+        <li class="settings__item">
+          <button class="start-game secondary-btn">Start</button>
+        </li>
+        <li class="settings__item">
+          <button class="restart-game secondary-btn">Restart</button>
+        </li>
+      </ul>
+
+      <ul class="state-container flex-container">
+        <li class=" state__item">
+          <h3>Food</h3>
+          <p class="food">0</p>
+        </li>
+        <li class=" state__item">
+          <h3>Clean</h3>
+          <p class="clean">0</p>
+        </li>
+        <li class=" state__item">
+          <h3>Happy</h3>
+          <p class="happiness">0</p>
+        </li>
+        <li class=" state__item">
+          <h3>Health</h3>
+          <p class="health">0</p>
+        </li>
+        <li class=" state__item">
+          <h3>Social</h3>
+          <p class="socialization">0</p>
+        </li>
+        <li class=" state__item">
+          <h3>Money</h3>
+          <p class="money">0</p>
+        </li>
+      </ul>
+      <div class="button-container flex-container">
+        <button class="eat-button button primary-button">Eat</button>
+        <button class="wash-button button primary-button">Wash</button>
+        <button class="run-button button primary-button">Run</button>
+        <button class="visit-doctor button primary-button">Visit doctor</button>
+        <button class="go-to-bar button primary-button">Go to bar</button>
+        <button class="go-to-work button primary-button">Go to work</button>
+        <button class="buy-food button primary-button">Buy food</button>
+        <button class="start-business button primary-button">
+          Start a business
+        </button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+.wrapper {
+  max-width: 900px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings {
+  margin: 90px 0;
+}
+
+.game-over {
+  font-size: 48px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.state__item {
+  margin-top: 10px;
+  width: 100px;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.button-container {
+  max-width: 600px;
+}
+
+.levelOfDifficulty {
+  width: 150px;
+  height: 40px;
+  font: 400 16px sans-serif;
+  outline: none;
+  border: 1px solid #ccc;
+  background: none;
+  font-size: 18px;
+}
+
+.primary-button {
+  margin-top: 20px;
+  width: 150px;
+  font: 400 16px/50px sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.start-game {
+  color: #32cd32;
+}
+
+.restart-game {
+  color: #ff4500;
+}
+
+.eat-button {
+  background: #ffa500;
+}
+
+.wash-button {
+  background: #00f5ff;
+}
+
+.run-button {
+  background: #ff4500;
+}
+
+.visit-doctor {
+  background: #32cd32;
+}
+
+.go-to-bar {
+  background: #8a2be2;
+}
+
+.go-to-work {
+  background: #7fff00;
+}
+
+.buy-food {
+  background: #ff00ff;
+}
+
+.start-business {
+  background: #ffd700;
+}
+
+@media screen and (max-width: 640px) {
+  .state-container {
+    max-width: 420px;
+  }
+
+  .button-container {
+    max-width: 440px;
+    justify-content: space-around;
+  }
+}
